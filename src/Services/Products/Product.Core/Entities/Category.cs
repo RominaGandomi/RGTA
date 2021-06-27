@@ -12,5 +12,6 @@ namespace Products.Core.Entities
         [BsonId]
         public string Id { get; set; }
         public string Name { get; set; }
+
     }
 }
