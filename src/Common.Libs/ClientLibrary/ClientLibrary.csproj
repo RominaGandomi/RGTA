@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationFoundation\ApplicationFoundation.csproj" />
+    <ProjectReference Include="..\CacheManager.Lib\CacheManager.Lib.csproj" />
+    <ProjectReference Include="..\ConfigManager.Lib\ConfigManager.Lib.csproj" />
+    <ProjectReference Include="..\CryptionManager.Lib\CryptionManager.Lib.csproj" />
+    <ProjectReference Include="..\ExceptionManager.Lib\ExceptionManager.Lib.csproj" />
+    <ProjectReference Include="..\ServiceBusManager.Lib\ServiceBusManager.Lib.csproj" />
+    <ProjectReference Include="..\SessionManager.Lib\SessionManager.Lib.csproj" />
+  </ItemGroup>
+
+</Project>
